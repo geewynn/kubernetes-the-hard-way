@@ -1,0 +1,11 @@
+Step by step setup to follow through this tutorial
+ Setting up the machines - Running this on windows 11
+
+ 1. Setup vagrant and virtual box
+ 2. Modify vagrantfile to run 4 machines based on the spec in the prerequisite.md file
+ 3. run vagrant up to startup servers
+ 4. ssh into the  first server (jumpbox) - vagrant ssh <server-name>
+ 5. run as root sudo su
+ 5. run sudo apt update once in the jumpstart box
+
+
